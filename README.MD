@@ -17,6 +17,7 @@ For example:
   "description": "",
   "main": "index.js",
   "scripts": {
+    "ls": "node node_modules/.bin/ls",
     "test": "Lorem ipsum dolor sit amet",
     "start": "Lorem ipsum dolor sit amet",
     "stop": "Lorem ipsum dolor sit amet",
@@ -52,4 +53,13 @@ $ yarn ls
 ✷ - release
 ✷ - kill
 ✷ - restart
+```
+
+
+*** for npm you can add it manually by adding it as script in the package.json
+
+```javascript
+"scripts": {
+    "ls": "node node_modules/.bin/ls",
+    }
 ```
