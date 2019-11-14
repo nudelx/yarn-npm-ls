@@ -1,6 +1,10 @@
 # yarn|npm ls
 
 
+<p align="center"><img width="200px" height="200px" style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/react-hooks-composer/master/img/logo.png" >
+<img width="200px" height="200px" style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/yarn-npm-ls/master/demo.gif" ></p>
+
+
 
 If you have defined a scripts object in your package, this command will show you the options. 
 
