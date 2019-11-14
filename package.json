@@ -1,6 +1,6 @@
 {
   "name": "yarn_npm_ls",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -24,7 +24,7 @@
     "kill": "Lorem ipsum dolor sit amet",
     "restart": "Lorem ipsum dolor sit amet"
   },
-  "author": "",
+  "author": "Alex Nudelman",
   "license": "ISC",
   "dependencies": {
     "chalk": "^3.0.0"
