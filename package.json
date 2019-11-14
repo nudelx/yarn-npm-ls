@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "Lorem ipsum dolor sit amet",
+    "start": "Lorem ipsum dolor sit amet",
+    "stop": "Lorem ipsum dolor sit amet",
+    "debug": "Lorem ipsum dolor sit amet",
+    "deploy": "Lorem ipsum dolor sit amet",
+    "release": "Lorem ipsum dolor sit amet",
+    "kill": "Lorem ipsum dolor sit amet",
+    "restart": "Lorem ipsum dolor sit amet"
   },
   "author": "",
   "license": "ISC",
