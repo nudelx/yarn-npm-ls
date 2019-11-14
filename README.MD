@@ -23,7 +23,7 @@ For example:
     "restart": "Lorem ipsum dolor sit amet",
 
   },
-  "author": "",
+  "author": "Alex Nudelman",
   "license": "ISC",
   "dependencies": {
     "chalk": "^3.0.0"
