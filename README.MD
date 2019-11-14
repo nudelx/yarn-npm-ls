@@ -1,8 +1,8 @@
 # yarn|npm ls
 
 
-<p align="center"><img width="200px" height="200px" style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/react-hooks-composer/master/img/logo.png" >
-<img width="200px" height="200px" style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/yarn-npm-ls/master/demo.gif" ></p>
+<p align="center">
+<img style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/yarn-npm-ls/master/demo.gif" ></p>
 
 
 
