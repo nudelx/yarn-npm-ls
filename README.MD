@@ -60,7 +60,7 @@ $ yarn ls
 
 ```javascript
 "scripts": {
-    "ls": "node node_modules/.bin/ls",
+    "ls": "node_modules/.bin/ls",
     }
 ```
 
