@@ -63,3 +63,5 @@ $ yarn ls
     "ls": "node node_modules/.bin/ls",
     }
 ```
+
+`npm run ls` will run the script 

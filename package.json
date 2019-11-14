@@ -22,7 +22,8 @@
     "deploy": "Lorem ipsum dolor sit amet",
     "release": "Lorem ipsum dolor sit amet",
     "kill": "Lorem ipsum dolor sit amet",
-    "restart": "Lorem ipsum dolor sit amet"
+    "restart": "Lorem ipsum dolor sit amet",
+    "ls": " ./node_modules/.bin/ls"
   },
   "author": "Alex Nudelman",
   "license": "ISC",
