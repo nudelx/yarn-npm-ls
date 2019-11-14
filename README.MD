@@ -56,7 +56,7 @@ $ yarn ls
 ```
 
 
-*** for npm you can add it manually by adding it as script in the package.json
+*** for npm you can add it manually by adding this line as a script in the package.json
 
 ```javascript
 "scripts": {
