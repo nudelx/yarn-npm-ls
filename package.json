@@ -11,6 +11,9 @@
     "scripts",
     "command"
   ],
+  "bin": {
+    "ls": "./index.js"
+  },
   "scripts": {
     "test": "Lorem ipsum dolor sit amet",
     "start": "Lorem ipsum dolor sit amet",
