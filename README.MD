@@ -32,7 +32,7 @@ For example:
 
 ```
 (yarn or npm) ls
-Running this command will execute the script named "ls.js" that will list all your command defined in  the package.json as a scripts.
+Running this command will execute the ls script that will list all your command defined in the package.json as a scripts.
 
 
 ```bash 
