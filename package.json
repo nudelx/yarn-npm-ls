@@ -1,8 +1,16 @@
 {
   "name": "yarn_npm_ls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "keywords": [
+    "yarn",
+    "npm",
+    "list",
+    "ls",
+    "scripts",
+    "command"
+  ],
   "scripts": {
     "test": "Lorem ipsum dolor sit amet",
     "start": "Lorem ipsum dolor sit amet",
