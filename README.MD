@@ -36,6 +36,8 @@ Running this command will execute the script named "ls.js" that will list all yo
 
 
 ```bash 
+$ yarn ls 
+
 👉  Available commands are:
 
 ✷ - test
