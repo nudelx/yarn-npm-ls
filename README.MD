@@ -55,6 +55,9 @@ $ yarn ls
 ✷ - restart
 ```
 
+Custom path if needed: 
+
+ ` ROOT_PATH='/tmp/myproject' yarn ls`
 
 *** for npm you can add it manually by adding this line as a script in the package.json
 
@@ -63,10 +66,4 @@ $ yarn ls
     "ls": "node_modules/.bin/ls",
     }
 ```
-
- Custom path if needed: 
-
- ` ROOT_PATH='/tmp/myproject' yarn ls`
-
-
 `npm run ls` will run the script 
