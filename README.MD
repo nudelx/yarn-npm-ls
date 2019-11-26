@@ -64,4 +64,9 @@ $ yarn ls
     }
 ```
 
+ Custom path if needed: 
+
+ ` ROOT_PATH='/tmp/myproject' yarn ls`
+
+
 `npm run ls` will run the script 
