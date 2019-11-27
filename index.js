@@ -12,7 +12,7 @@ const clear = function () {
 }
 
 const run = function (cmd) {
-  cmd ? console.log(exec(cmd, { encoding: 'utf8' })) : console.log(chalk.blueBright(' 👉  command not found: \n'))
+  const shell = cmd ? exec(cmd, { encoding: 'utf8', stdio: 'inherit' }) : console.log(chalk.blueBright(' 👉  command not found: \n'))
 }
 
 const listScripts = function () {
