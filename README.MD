@@ -1,4 +1,5 @@
-# yarn|npm ls
+# yarn|npm ls 
+## A tiny tool, that can list and run command from your package.json 
 
 
 <p align="center">
@@ -45,16 +46,25 @@ $ yarn ls
 
 👉  Available commands are:
 
-✷ - test
-✷ - start
-✷ - stop
-✷ - debug
-✷ - deploy
-✷ - release
-✷ - kill
-✷ - restart
+  1 - test
+  2 - start
+  3 - stop
+  4 - debug
+  5 - deploy
+  6 - release
+  7 - kill
+  8 - restart
+
+
+ 🤓  number or name of cmd to run or just hit enter to cancel $: 
+
 ```
 
+as an option you can run the required command by providing the number or name of the listed commands
+
+Example: `<test or 1 >` will run the `test` cmd for you. 
+
+---
 Custom path if needed: 
 
  ` ROOT_PATH='/tmp/myproject' yarn ls`
