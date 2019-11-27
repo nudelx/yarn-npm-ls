@@ -4,7 +4,6 @@ const path = require('path')
 const chalk = require('chalk')
 const exec = require('child_process').execSync
 const readline = require('readline');
-process.env.__DEV__ === 'dev' ? process.chdir('.') : process.chdir('../..')
 const ROOT_PATH = process.env.ROOT_PATH || path.resolve(process.cwd()) // eslint-disable-line
 const list = require(`${ROOT_PATH}/package.json`)
 
@@ -40,6 +39,6 @@ const askAndRun = function () {
   })
 }
 
-// clear()
+clear()
 listScripts()
 askAndRun()
