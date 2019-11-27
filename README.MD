@@ -1,5 +1,5 @@
 # yarn|npm ls 
-## A tiny tool, that can list and run command from your package.json 
+#### A tiny tool, that can list and run command from your package.json 
 
 
 <p align="center">
