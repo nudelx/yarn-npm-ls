@@ -9,7 +9,9 @@
     "list",
     "ls",
     "scripts",
-    "command"
+    "command",
+    "run",
+    "run command"
   ],
   "bin": {
     "ls": "./index.js"
@@ -23,7 +25,9 @@
     "release": "Lorem ipsum dolor sit amet",
     "kill": "Lorem ipsum dolor sit amet",
     "restart": "Lorem ipsum dolor sit amet",
-    "ls": " ./node_modules/.bin/ls"
+    "ls": " ./node_modules/.bin/ls",
+    "echo": "echo 'Hello !!!'" ,
+    "list": "ls "
   },
   "author": "Alex Nudelman",
   "license": "ISC",
