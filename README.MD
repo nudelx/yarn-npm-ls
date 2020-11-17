@@ -60,9 +60,7 @@ $ yarn ls
 
 ```
 
-as an option you can run the required command by providing the number or name of the listed commands
-
-Example: `<test or 1 >` will run the `test` cmd for you. 
+use arrow keys to navigate 
 
 ---
 Custom path if needed: 
