@@ -33,17 +33,20 @@ const listScripts = function () {
 }
 
 const askAndRun = function () {
+
   if (!list.scripts) {
     console.log(chalk.blueBright(' 🤔  Your scripts are empty: \n'))
     process.exit()
   }
   console.log(chalk.blueBright(' 🤓  Choose from available commands: \n'))
+  
   cliSelect({
+    inputStream: process.stdin,
     values: Object.keys(list.scripts),
     valueRenderer: (value, selected) =>
       `${chalk.greenBright(value)} => ${chalk.gray(list.scripts[value])}`,
     selected: ' 👉 ',
-    unselected: '  ',
+    unselected: '   ',
   })
     .then((res) => {
       console.log(chalk.blueBright(`🤞 Executing: ${res.value}`))
