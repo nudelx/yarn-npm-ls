@@ -60,7 +60,7 @@ $ yarn ls
 
 ```
 
-use arrow keys to navigate 
+use the arrow keys to navigate 
 
 ---
 Custom path if needed: 
