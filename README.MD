@@ -5,7 +5,8 @@
 <p align="center">
 <img style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/yarn-npm-ls/master/demo.gif" ></p>
 
-
+<p align="center">
+<img style="max-width: 100%; margin-right: auto;  margin-left: auto; " src="https://raw.githubusercontent.com/nudelx/yarn-npm-ls/master/new_demo.gif" ></p>
 
 If you have defined a scripts object in your package, this command will show you the options. 
 
@@ -44,19 +45,18 @@ Running this command will execute the ls script that will list all your command 
 ```bash 
 $ yarn ls 
 
-👉  Available commands are:
+🤓  Choose from available commands: 
 
-  1 - test
-  2 - start
-  3 - stop
-  4 - debug
-  5 - deploy
-  6 - release
-  7 - kill
-  8 - restart
+      test
+  👉  start 
+      stop
+      debug
+      deploy
+      release
+      kill
+      restart
 
 
- 🤓  number or name of cmd to run or just hit enter to cancel $: 
 
 ```
 
