@@ -35,12 +35,13 @@
     "kill": "Lorem ipsum dolor sit amet",
     "restart": "Lorem ipsum dolor sit amet",
     "ls": " ./node_modules/.bin/ls",
-    "echo": "echo 'Hello !!!'" ,
+    "echo": "echo 'Hello !!!'",
     "list": "ls "
   },
   "author": "Alex Nudelman",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^3.0.0"
+    "chalk": "3.0.0",
+    "cli-select": "1.1.2"
   }
 }
