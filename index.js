@@ -34,7 +34,7 @@ const clear = function () {
 const run = function (cmd) {
   const shell = cmd
     ? exec(cmd, { encoding: 'utf8', stdio: 'inherit' })
-    : console.log(chalk.blueBright(' 🤨  command not found: \n'))
+    : console.log(chalk.blueBright( ` 🤨 Command not found !\n`))
 }
 
 const listScripts = function () {
@@ -68,7 +68,7 @@ const listenForInput = function () {
 
 const ask = function () {
   rl.clearLine(process.stdin)
-  rl.question(chalk.blueBright(' 🧐 Use arrows to navigate or type the name/number: '), (res) => {
+  rl.question(chalk.blueBright(' 🧐 Use arrows ↑↓ to navigate or type the name/number $: '), (res) => {
     res = res || selected + 1
     cmd = isNaN(res) ? list.scripts[res.trim()] : list.scripts[Object.keys(list.scripts)[res - 1]]
     rl.close()
