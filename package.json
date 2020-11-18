@@ -42,6 +42,5 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "3.0.0",
-    "cli-select": "1.1.2"
   }
 }

@@ -6,10 +6,9 @@ const exec = require('child_process').execSync
 const readline = require('readline')
 readline.emitKeypressEvents(process.stdin)
 const ROOT_PATH = process.env.ROOT_PATH || path.resolve(process.cwd()) // eslint-disable-line
-
-let from = 1
-let selected = 0
 const list = require(`${ROOT_PATH}/package.json`)
+
+let selected = 0
 const MAX = list.scripts && Object.keys(list.scripts).length
 const select_icon = '👉'
 const options = {
