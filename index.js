@@ -69,10 +69,8 @@ const listenForInput = function () {
 const ask = function () {
   rl.clearLine(process.stdin)
   rl.question(chalk.blueBright(' 🧐 Use arrows to navigate or type the name/number: '), (res) => {
-    res = res || selected +1 
-      cmd = isNaN(res)
-      ? list.scripts[res.trim()]
-      : list.scripts[Object.keys(list.scripts)[res - 1]]
+    res = res || selected + 1
+    cmd = isNaN(res) ? list.scripts[res.trim()] : list.scripts[Object.keys(list.scripts)[res - 1]]
     rl.close()
     run(cmd)
   })
