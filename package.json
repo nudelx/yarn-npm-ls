@@ -41,6 +41,6 @@
   "author": "Alex Nudelman",
   "license": "ISC",
   "dependencies": {
-    "chalk": "3.0.0",
+    "chalk": "3.0.0"
   }
 }
