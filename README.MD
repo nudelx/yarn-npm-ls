@@ -45,16 +45,18 @@ Running this command will execute the ls script that will list all your command 
 ```bash 
 $ yarn ls 
 
-🤓  Choose from available commands: 
 
-      test
-  👉  start 
-      stop
-      debug
-      deploy
-      release
-      kill
-      restart
+ 🤓  Available commands are: 
+
+        1 - start => react-scripts start
+   👉  2 - build => react-scripts build
+        3 - test => react-scripts test --env=jsdom
+        4 - eject => react-scripts eject
+
+
+
+ 🧐 Use arrows to navigate or type the name/number: 2 or build
+
 
 
 
