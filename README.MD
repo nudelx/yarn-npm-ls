@@ -60,7 +60,7 @@ $ yarn ls
 
 ```
 
-use the arrow keys to navigate 
+use the arrow keys to navigate or type the cmd name or the cmd number
 
 ---
 Custom path if needed: 
