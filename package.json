@@ -36,11 +36,15 @@
     "restart": "Lorem ipsum dolor sit amet",
     "ls": " ./node_modules/.bin/ls",
     "echo": "echo 'Hello !!!'",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
     "list": "ls "
   },
   "author": "Alex Nudelman",
   "license": "ISC",
   "dependencies": {
     "chalk": "5.0.1"
+  },
+  "devDependencies": {
+    "prettier": "3.4.2"
   }
 }
