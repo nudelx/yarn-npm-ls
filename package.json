@@ -36,8 +36,8 @@
     "restart": "Lorem ipsum dolor sit amet",
     "ls": " ./node_modules/.bin/ls",
     "echo": "echo 'Hello !!!'",
-    "list": "ls ",
-    "format": "prettier --write \"**/*.{js,json,md}\""
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "list": "ls "
   },
   "author": "Alex Nudelman",
   "license": "ISC",
