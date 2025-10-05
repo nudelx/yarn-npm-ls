@@ -20,7 +20,13 @@
     "scripts",
     "command",
     "run",
-    "run command"
+    "run command",
+    "yarn ls",
+    "npm ls",
+    "yarn_npm_ls",
+    "yarn-npm-ls",
+    "yarn_npm_ls command",
+    "yarn-npm-ls command"
   ],
   "bin": {
     "ls": "./index.js"
